@@ -6,7 +6,7 @@
   ``` sudo docker run --rm --gpus all nvidia/cuda:11.0-base nvidia-smi```
 - Download [Nvidia-TensorRT image](https://ngc.nvidia.com/catalog/containers/nvidia:tensorrt)
   ``` docker run --gpus all -it --rm -v local_dir:/home/work_station.io/nvidia/tensorrt:21.09-py3 ``` 
-- Install dependencies
+- Install dependencies in docker image
   - Install [torch+cuda](https://pytorch.org/get-started/previous-versions/)
     ``` pip install torch==1.8.0+cu111 torchvision==0.9.0+cu111 torchaudio==0.8.0 -f https://download.pytorch.org/whl/torch_stable.html```
   - Gitclone [source](https://github.com/NVIDIA-AI-IOT/torch2trt)
