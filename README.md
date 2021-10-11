@@ -17,7 +17,7 @@
   - Solve opencv-python error in docker [source](https://github.com/conda-forge/pygridgen-feedstock/issues/10)
 
 - Git Clone [source](https://github.com/ziaatmasterworks/ai-hajj-crowd)
-- cd DM-Count
+- cd ai-hajj-crowd
 - Download pre-train weights from [DM-Count](https://github.com/cvlab-stonybrook/DM-Count) to ./PreTrainWeights
 - Edit video_path,model_path and output_video_Path in dm-count-trt.py
 ``` python dm-count-trt.py ```
